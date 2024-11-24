@@ -10,11 +10,3 @@ The **Legion CLI** is a daemon management tool designed to register, start, stop
 - **Log Management**: Rotate logs for daemons to maintain clean and manageable log files.
 - **Signal Handling**: Responds to signals like `SIGINT`, `SIGALRM`, and `SIGCHLD` for proper process control and program termination.
 
-## Build and Run
-### Prerequisites
-- A C compiler (e.g., `gcc`)
-- Make sure you have the necessary permissions to manage processes and create log directories/files.
-
-### Compilation
-```bash
-gcc -o legion_cli legion.c
